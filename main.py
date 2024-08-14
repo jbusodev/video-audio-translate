@@ -5,6 +5,7 @@ import subprocess  # cli commands for python
 import argparse  # command line argument parser
 import torch  # machine learning
 import tempfile
+from utils import env_vars
 
 # Text
 import whisper # speech recognition for transcription
@@ -16,8 +17,7 @@ from pydub import (AudioSegment)  # audio manipulation
 import pyrubberband as pyrb   # audio manipulation for pitch correction
 import numpy as np   # mathematical operations on arrays of numbers
 
-# Translation API Keys
-DEEPL_API_KEY = "c4957624-b0b9-4a28-bf2a-c6c10a498a14:fx"
+DEEPL_API_KEY = env_vars.DEEPL_API_KEY
 LANG_DICT = {
     "en": "english",
     "es": "spanish",
