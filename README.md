@@ -9,7 +9,9 @@ This is a script written in Python to translate an audio of video file into desi
 - Deepl API Key (free)
 
 `py -m venv .venv`. Make sure to source it before going further.
+
 ```pip install -r requirements.txt```
+`cp .env.example .env`. Enter your DEEPL_API key in `.env`.
 
 ## Usage
 
