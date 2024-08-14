@@ -31,7 +31,7 @@ Audio output is in form: `input_filename_lg.wav` and Video output: `input_filena
 
 ## Possible improvements
 
-[] Split and merge generations for use with long duration audio.
-[] Add output file path parameter.
-[] Improve audio matching.
-[] Turn into Web App.
+[ ] Split and merge generations for use with long duration audio.
+[ ] Add output file path parameter.
+[ ] Improve audio matching.
+[ ] Turn into Web App.
