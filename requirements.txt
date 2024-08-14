@@ -1,0 +1,15 @@
+argparse==1.4.0
+deepl==1.18.0
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+gruut-lang-de==2.0.1
+gruut-lang-es==2.0.1
+gruut-lang-fr==2.0.2
+libretranslatepy==2.1.1
+lxml==5.2.2
+openai-whisper==20231117
+pip-chill==1.0.3
+pydub==0.25.1
+pyrubberband==0.3.0
+sudachidict-core==20240716
+tts==0.22.0
