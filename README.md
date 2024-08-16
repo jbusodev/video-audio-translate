@@ -33,7 +33,13 @@ Audio output is in form: `input_filename_lg.wav` and Video output: `input_filena
 
 ## Possible improvements
 
+### Performance & Quality
+
 - [ ] Split and merge generations for use with long duration audio.
-- [ ] Add output file path parameter.
 - [ ] Improve audio matching.
+- [ ] Pass generated audio to RVC for better quality.
+
+### Quality of Life & UX
+
+- [ ] Add output file path parameter.
 - [ ] Turn into Web App.
