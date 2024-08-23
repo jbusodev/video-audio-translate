@@ -6,6 +6,7 @@ This is a script written in Python to translate an audio of video file into desi
 
 - Python 3.10.14
 - ffmpeg. Instructions on how to install: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+- rubberband. from package if linux system or: [https://breakfastquay.com/rubberband/](https://breakfastquay.com/rubberband/) if Windows
 - Deepl API Key (free): [https://www.deepl.com/en/your-account/keys](https://www.deepl.com/en/your-account/keys)
 
 `py -m venv .venv`. Make sure to source it before going further.
@@ -38,6 +39,7 @@ Audio output is in form: `input_filename_lg.wav` and Video output: `input_filena
 - [ ] Split and merge generations for use with long duration audio.
 - [ ] Improve audio matching.
 - [ ] Pass generated audio to RVC for better quality.
+- [x] Support for bulk translation.
 
 ### Quality of Life & UX
 
